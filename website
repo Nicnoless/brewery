@@ -4,69 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Brewery In Town</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <img>
-    <h1>
-        New Brewery In Town
-    </h1>
-    <div class="links-container">
+    <header class="header-container" id="section1">
+        <div class="image-small">
+            <img>
+        </div>
+        <h1>New Brewery In Town</h1>
+    </header>
+    <nav class="links-container">
         <a href="#section2">Beverage Menu</a>
         <a href="#section3">Contact Us</a>
-    </div>
-    <h2>
-        Craft Beer Haven
-    </h2>
-    <h3>
-        Unwind with Us
-    </h3>
-    <div class="image-container">
-        <img src="BeerOnTap2.png" alt="Beer On Tap">
-    </div>
-    <div id="section2">
-        <h3>Beverage Menu</h3>
-    </div>
-    <div class="content-container">
-        <div class="rectangle">
-            <div class="content-container">
-                <div class="text-container">
-                    <h4>Craft Beer</h4>
-                    <p>Stop in for a cold beer!</p>
-                </div>
-                <img src="Citrus IPA.png" class="image-small">
+    </nav>
+    <main>
+        <section>
+            <h2>Craft Beer Haven</h2>
+            <h3>Unwind with Us</h3>
+            <div class="image-container">
+                <img src="BeerOnTap2.png" alt="Beer On Tap">
             </div>
-        </div>
-        <div class="rectangle">
+        </section>
+        <section id="section2">
+            <h3>Beverage Menu</h3>
             <div class="content-container">
-                <div class="text-container">
-                    <h4>Soda</h4>
-                    <p>Stop in for a cold soda!</p>
-                </div>
-                <img src="Cherry Cola.png" class="image-small">
+                <article class="rectangle">
+                    <div class="content-container">
+                        <div class="text-container">
+                            <h4>Craft Beer</h4>
+                            <p>Stop in for a cold beer!</p>
+                        </div>
+                        <img src="Citrus IPA.png" class="image-small" alt="Citrus IPA">
+                    </div>
+                </article>
+                <article class="rectangle">
+                    <div class="content-container">
+                        <div class="text-container">
+                            <h4>Soda</h4>
+                            <p>Stop in for a cold soda!</p>
+                        </div>
+                        <img src="Cherry Cola.png" class="image-small" alt="Cherry Cola">
+                    </div>
+                </article>
+                <article class="rectangle">
+                    <div class="content-container">
+                        <div class="text-container">
+                            <h4>Water</h4>
+                            <p>Stop in for a cold water!</p>
+                        </div>
+                        <img src="Water.png" class="image-small" alt="Water">
+                    </div>
+                </article>
             </div>
-        </div>
-        <div class="rectangle">
+        </section>
+        <section id="section3" class="contact-rectangle">
             <div class="content-container">
-                <div class="text-container">    
-                    <h4>Water</h4>
-                    <p>Stop in for a cold water!</p>
-                </div>
-                <img src="Water.png" class="image-small">
-            </div>
-        </div>
-    </div>
-    <div class="contact-rectangle">
-        <div id="section3">
-            <div class="content-container">
-                <h4>Contact us</h4>
+                <h4>Contact Us</h4>
                 <div class="text-container">
                     <p>987-654-3210</p>
                     <p>name@website.com</p>
                     <p>Address, Enid, OK 73701</p>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+        <footer style="display: flex; justify-content: flex-end;">
+            <a href="#section1">Back to top</a>
+        </footer>
+    </main>
 </body>
 </html>
