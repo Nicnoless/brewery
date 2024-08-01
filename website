@@ -4,9 +4,11 @@ html {
 
 body {
     background: linear-gradient(to bottom, black, indigo, black);
-    height: 250vh;
+    min-height: 100vh;
     color: white;
     font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 20px;
 }
 
 h1 {
